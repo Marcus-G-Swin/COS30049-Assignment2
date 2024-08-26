@@ -4,3 +4,7 @@
 **Marcus, Chi, Dinal**
 ## Due Date: 
 Week 7 Sunday
+## Check Edit Perms:
+**Marcus:** Check
+**Chi:** 
+**Dinal (De Loser):** 
