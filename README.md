@@ -6,5 +6,5 @@
 Week 7 Sunday
 ## Check Edit Perms:
 **Marcus:** Check
-<br />**Chi:** 
+<br />**Chi:** Check
 <br />**Dinal (De Loser):** 
