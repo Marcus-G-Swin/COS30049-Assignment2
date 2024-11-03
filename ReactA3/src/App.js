@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
+import Buy from './components/Pages/Buy';
 import Options from './components/Pages/Options';
 import Login from './components/Pages/Login';
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={ <Home />}></Route>
         <Route path='/About' exact element={ <About />}></Route>
+        <Route path='/Buy' exact element={ <Buy />}></Route>
         <Route path='/Options' exact element={ <Options />}></Route>
         <Route path='/Login' exact element={ <Login />}></Route>
       </Routes>
