@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Card from '../Card';
 import Footer from '../Footer';
 //import dinal from '../../../public/images/tempmember1.jpg';
 //import dinal from './images/tempmember1.jpg';

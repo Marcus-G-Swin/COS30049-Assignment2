@@ -6,10 +6,10 @@ function Cards() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const cardData = [
-    { src: 'images/grouplogo.jpg', text: 'ghafjgpaonvgihklj', price: '10k', path: '/services' },
-    { src: 'images/grouplogo.jpg', text: 'fa;k;dlla;mvaf', price: 'Luxury', path: '/services' },
-    { src: 'images/grouplogo.jpg', text: 'afadgassdddwerw', price: 'Luxury', path: '/services' },
-    { src: 'images/grouplogo.jpg', text: 'Set Sail Uncharted Waters', price: 'Mystery', path: '/services' },
+    { src: 'images/grouplogo.jpg', text: 'ghafjgpaonvgihklj', price: '10K', path: '/services' },
+    { src: 'images/grouplogo.jpg', text: 'fa;k;dlla;mvaf', price: '20K', path: '/services' },
+    { src: 'images/grouplogo.jpg', text: 'afadgassdddwerw', price: '15K', path: '/services' },
+    { src: 'images/grouplogo.jpg', text: 'Set Sail Uncharted Waters', price: '18K', path: '/services' },
   ];
 
   const filteredCards = cardData.filter(card =>

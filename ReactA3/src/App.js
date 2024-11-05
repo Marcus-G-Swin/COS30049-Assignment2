@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Buy from './components/Pages/Buy';
+import Data from './components/Pages/Data';
 import Options from './components/Pages/Options';
 import Login from './components/Pages/Login';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' exact element={ <Home />}></Route>
         <Route path='/About' exact element={ <About />}></Route>
         <Route path='/Buy' exact element={ <Buy />}></Route>
+        <Route path='/Data' exact element={ <Data />}></Route>
         <Route path='/Options' exact element={ <Options />}></Route>
         <Route path='/Login' exact element={ <Login />}></Route>
       </Routes>
