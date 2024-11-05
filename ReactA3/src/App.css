@@ -7,9 +7,10 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+h1.about,
+.buy,
+.options,
+.login {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,29 +18,81 @@
   font-size: 3rem;
 }
 
-.services {
-  /* background-image: url('/images/img-2.jpg'); */
+/*specific styling for About*/
+
+h1.about {
+  background-image: url('/public/images/grouplogo.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  color: rgb(245, 241, 245);
   font-size: 100px;
 }
 
-.products {
-  /* background-image: url('/images/img-1.jpg'); */
+div.about, h2.about {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 5rem;
+  background: rgb(245, 241, 245);
+  color: rgb(125, 38, 126);
+}
+
+div.aboutcont {
+  font-size: 2rem;
+  padding: 10px 100px;
+  color: rgb(11, 0, 11);
+}
+
+p.about {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  h2.about {
+    align-items: center;
+  }
+
+  div.about {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+/*specific styling for Buy*/
+
+.buy {
+  background-image: url('/public/images/grouplogo.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  color: rgb(245, 241, 245);
   font-size: 100px;
 }
 
-.sign-up {
+/*specific styling for Options*/
+
+.options {
   /* background-image: url('/images/img-8.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  color: rgb(245, 241, 245);
+  font-size: 100px;
+}
+
+/*specific styling for Login*/
+
+.login {
+  /* background-image: url('/images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  color: rgb(245, 241, 245);
   font-size: 100px;
 }

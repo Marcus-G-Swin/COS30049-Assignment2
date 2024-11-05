@@ -4,14 +4,14 @@ import Banner from '../Banner';
 import Card from '../Card';
 import Footer from '../Footer';
 
-function Home() {
+function Buy() {
     return (
-        <>
-            <Banner />
+        <>            
+            <h1 className='buy'>Buy</h1>
             <Card />
             <Footer />
         </>
     );
 }
 
-export default Home;
+export default Buy;

@@ -11,29 +11,41 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/grouplogo.jpg'
-              text='Ejjjjkkj'
-              label='cvbnm'
-              path='/'
+              text='ghafjgpaonv'
+              label='Adventure'
+              path='/services'
             />
             <CardItem
               src='images/grouplogo.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='fa;k;dlla;mvaf'
               label='Luxury'
-              path='/'
+              path='/services'
+            />
+            <CardItem
+              src='images/grouplogo.jpg'
+              text='afadgassdddwerw'
+              label='Luxury'
+              path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/grouplogo.jpg'
-              text='Ejjjjkkj'
-              label='Adventure'
-              path='/'
+              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              label='Mystery'
+              path='/services'
             />
             <CardItem
               src='images/grouplogo.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/'
+              text='Experience Football on Top of the Himilayan Mountains'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/grouplogo.jpg'
+              text='Ride through the Sahara Desert on a guided camel tour'
+              label='Adrenaline'
+              path='/sign-up'
             />
           </ul>
         </div>

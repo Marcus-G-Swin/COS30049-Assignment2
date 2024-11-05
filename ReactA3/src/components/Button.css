@@ -15,6 +15,7 @@
     color: rgb(11, 0, 11);
     border: 1px solid var (--primary);
     transition: all 0.3s ease-out;
+    border: none;
 }
 
 .btn--outline {
