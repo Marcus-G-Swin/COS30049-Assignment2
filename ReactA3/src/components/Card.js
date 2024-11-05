@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function Card() {
   return (
     <div className='cards'>
       <h1>Check out these house listings!</h1>
@@ -11,40 +11,60 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/grouplogo.jpg'
-              text='ghafjgpaonv'
-              label='Adventure'
+              text='ghafjgpaonvgihklj'
+              price='10k'
               path='/services'
             />
             <CardItem
               src='images/grouplogo.jpg'
               text='fa;k;dlla;mvaf'
-              label='Luxury'
+              price='Luxury'
               path='/services'
             />
             <CardItem
               src='images/grouplogo.jpg'
               text='afadgassdddwerw'
-              label='Luxury'
+              price='Luxury'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/grouplogo.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              text='Set Sail Uncharted Waters'
+              price='Mystery'
               path='/services'
             />
             <CardItem
               src='images/grouplogo.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              price='Adventure'
               path='/products'
             />
             <CardItem
               src='images/grouplogo.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              price='Adrenaline'
+              path='/sign-up'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/grouplogo.jpg'
+              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              price='Mystery'
+              path='/services'
+            />
+            <CardItem
+              src='images/grouplogo.jpg'
+              text='Experience Football on Top of the Himilayan Mountains'
+              price='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src='images/grouplogo.jpg'
+              text='Ride through the Sahara Desert on a guided camel tour'
+              price='Adrenaline'
               path='/sign-up'
             />
           </ul>
@@ -54,4 +74,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Card;

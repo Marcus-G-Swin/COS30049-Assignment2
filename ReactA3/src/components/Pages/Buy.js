@@ -1,14 +1,17 @@
 import React from 'react';
 import '../../App.css';
-import Banner from '../Banner';
-import Card from '../Card';
+import Cards from '../Cards';
 import Footer from '../Footer';
 
 function Buy() {
     return (
-        <>            
-            <h1 className='buy'>Buy</h1>
-            <Card />
+        <>  
+            <div className='buy'>
+                <h1 className='buy'>Give us money!!!!!!</h1>
+                <h2 className='buy'>Or did you want to look at the data?</h2>
+            </div>          
+
+            <Cards />
             <Footer />
         </>
     );

@@ -11,27 +11,26 @@ function About() {
             <h1 className='about'>Meet the team!</h1>
             <h2 className='about'>24 - The AI Merchant</h2>
             <div className='about'>
-                <img src='/images/tempmember1.jpg' width={500} height={500} alt="Dinal"></img>
+                <img src='/images/Dinal.jpg' width={425} height={500} alt="Dinal"></img>
                 <div className='aboutcont'>
                     <h3 className='about'>Dinal</h3>
                     <p className='about'>Bro is dead</p>
                 </div>
             </div>
             <div className='about'>
-                <img src='/images/tempmember1.jpg' width={500} height={500} alt="Dinal"></img>
+                <img src='/images/Marcus.jpg' width={425} height={500} alt="Marcus"></img>
                 <div className='aboutcont'>
-                    <h3 className='about'>Dinal</h3>
+                    <h3 className='about'>Marcus</h3>
                     <p className='about'>Bro is dead</p>
                 </div>
             </div>
             <div className='about'>
-                <img src='/images/tempmember1.jpg' width={500} height={500} alt="Dinal"></img>
+                <img src='/images/Chi.jpg' width={425} height={500} alt="Chi"></img>
                 <div className='aboutcont'>
-                    <h3 className='about'>Dinal</h3>
+                    <h3 className='about'>Chi</h3>
                     <p className='about'>Bro is dead</p>
                 </div>
             </div>
-            <Card />
             <Footer />
         </>
     );

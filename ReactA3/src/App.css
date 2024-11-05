@@ -9,7 +9,7 @@
 .home,
 h1.about,
 .buy,
-.options,
+.option,
 .login {
   display: flex;
   height: 90vh;
@@ -63,7 +63,7 @@ p.about {
 
 /*specific styling for Buy*/
 
-.buy {
+div.buy {
   background-image: url('/public/images/grouplogo.jpg');
   background-position: center;
   background-size: cover;
@@ -75,8 +75,8 @@ p.about {
 
 /*specific styling for Options*/
 
-.options {
-  /* background-image: url('/images/img-8.jpg'); */
+.option {
+  background-image: url('/public/images/grouplogo.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
