@@ -9,7 +9,7 @@
 .home,
 h1.about,
 .buy,
-.option,
+.data,
 .login {
   display: flex;
   height: 90vh;
@@ -99,9 +99,9 @@ div.buy > h2 {
   margin: 6px;
 }
 
-/*specific styling for Options*/
+/*specific styling for Data*/
 
-.option {
+.data {
   background-image: url('/public/images/grouplogo.jpg');
   background-position: center;
   background-size: cover;
@@ -114,7 +114,7 @@ div.buy > h2 {
 /*specific styling for Login*/
 
 .login {
-  /* background-image: url('/images/img-8.jpg'); */
+  background-image: url('/public/images/grouplogo.jpg');
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);

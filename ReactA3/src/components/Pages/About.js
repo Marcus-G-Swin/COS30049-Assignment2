@@ -12,22 +12,22 @@ function About() {
             <div className='about'>
                 <img src='/images/Dinal.jpg' width={425} height={500} alt="Dinal"></img>
                 <div className='aboutcont'>
-                    <h3 className='about'>Dinal</h3>
-                    <p className='about'>Bro is dead</p>
+                    <h3 className='about'>Dinal De Silva</h3>
+                    <p className='about'>Our awesome leader</p>
                 </div>
             </div>
             <div className='about'>
                 <img src='/images/Marcus.jpg' width={425} height={500} alt="Marcus"></img>
                 <div className='aboutcont'>
-                    <h3 className='about'>Marcus</h3>
-                    <p className='about'>Bro is dead</p>
+                    <h3 className='about'>Marcus Green</h3>
+                    <p className='about'>Commondore Guy</p>
                 </div>
             </div>
             <div className='about'>
                 <img src='/images/Chi.jpg' width={425} height={500} alt="Chi"></img>
                 <div className='aboutcont'>
-                    <h3 className='about'>Chi</h3>
-                    <p className='about'>Bro is dead</p>
+                    <h3 className='about'>My Chi Nguyen</h3>
+                    <p className='about'>I love ice cream,,,</p>
                 </div>
             </div>
             <Footer />

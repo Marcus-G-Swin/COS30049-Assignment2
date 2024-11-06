@@ -56,10 +56,15 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
+                            <Link to ='/Data' className='nav-links' onClick={closeMobileMenu}>
+                                Predictor
+                            </Link>
+                        </li>
+                        {/* <li className='nav-item'>
                             <Link to ='/Options' className='nav-links' onClick={closeMobileMenu}>
                                 More Options
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link to ='/Login' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Login
