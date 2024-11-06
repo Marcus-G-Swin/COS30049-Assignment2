@@ -30,7 +30,7 @@ h1.about {
   font-size: 100px;
 }
 
-div.about, h2.about {
+div.about, p.about, h2.about {
   display: flex;
   justify-content: center;
   font-size: 3rem;

@@ -9,6 +9,7 @@ function About() {
         <>            
             <h1 className='about'>Meet the team!</h1>
             <h2 className='about'>24 - The AI Merchant</h2>
+            <p className='about'>The AI Merchant is a 3-member-team who love working on AI projects, bringing a giant jug of milk to work and talking about cookies</p>
             <div className='about'>
                 <img src='/images/Dinal.jpg' width={425} height={500} alt="Dinal"></img>
                 <div className='aboutcont'>

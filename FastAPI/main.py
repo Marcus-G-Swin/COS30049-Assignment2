@@ -67,14 +67,20 @@ class SimpleModel:
         # Load the trained model
         model = joblib.load('simple_model.pkl')
         
+        # List of all expected features
+        all_features = ['SqFt', 'Bedrooms', 'Bathrooms', 'Garage', 'Lot_Area', 'Year_Built', 'Type', 'Suburb']
+        
         # Create DataFrame only with provided data
         input_data = pd.DataFrame([data])
         
-        # Keep only the columns present in input data and expected by the model
-        relevant_columns = [col for col in input_data.columns if col in model.named_steps['preprocessor'].get_feature_names_out()]
-        input_data = input_data[relevant_columns]
+        # Filter input_data to only include columns expected by the model
+        input_data = input_data[[col for col in input_data.columns if col in all_features]]
         
-        # Predict based on available features
+        # Check if there are any columns in input_data
+        if input_data.empty:
+            raise ValueError("No valid columns for prediction")
+        
+        # Make prediction
         return model.predict(input_data)
 
 # Initialize and train the model
