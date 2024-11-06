@@ -6,10 +6,10 @@ function Cards() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const cardData = [
-    { src: 'images/grouplogo.jpg', text: 'ghafjgpaonvgihklj', price: '10K', path: '/services' },
-    { src: 'images/grouplogo.jpg', text: 'fa;k;dlla;mvaf', price: '20K', path: '/services' },
-    { src: 'images/grouplogo.jpg', text: 'afadgassdddwerw', price: '15K', path: '/services' },
-    { src: 'images/grouplogo.jpg', text: 'Set Sail Uncharted Waters', price: '18K', path: '/services' },
+    { src: 'images/prod1.jpg', text: '2 bedroom house at Richmond', price: '2M', path: '/buy' },
+    { src: 'images/prod2.jpg', text: '1 bedroom, 1 parking lot house at Melbourne', price: '3M', path: '/buy' },
+    { src: 'images/prod3.jpg', text: '2 bedroom house at Abbotsford', price: '2.3M', path: '/buy' },
+    { src: 'images/prod4.jpg', text: '1 bedroom house at Fitzroy', price: '1.8M', path: '/buy' },
   ];
 
   const filteredCards = cardData.filter(card =>

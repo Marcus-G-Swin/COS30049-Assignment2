@@ -21,22 +21,35 @@ h1.about,
 /*specific styling for About*/
 
 h1.about {
-  background-image: url('/public/images/grouplogo.jpg');
+  background-image: url('/public/images/about.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
   color: rgb(245, 241, 245);
   font-size: 100px;
 }
 
-div.about, p.about, h2.about {
+div.about{
   display: flex;
   justify-content: center;
   font-size: 3rem;
   padding: 5rem;
   background: rgb(245, 241, 245);
   color: rgb(125, 38, 126);
+}
+
+p.about, h2.about {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 5rem;
+  background: rgb(245, 241, 245);
+  color: rgb(125, 38, 126);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
 }
 
 div.aboutcont {
@@ -51,7 +64,7 @@ p.about {
 }
 
 @media only screen and (max-width: 1024px) {
-  h2.about {
+  h2.about, p.about {
     align-items: center;
   }
 
@@ -64,11 +77,11 @@ p.about {
 /*specific styling for Buy*/
 
 div.buy {
-  background-image: url('/public/images/grouplogo.jpg');
+  background-image: url('/public/images/buy.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
   color: rgb(245, 241, 245);
   font-size: 100px;
   display: flex;
@@ -105,14 +118,14 @@ div.buy > h2 {
   }
 }
 
-/*specific styling for Data*/
+/*specific styling for Predict*/
 
 .data {
-  background-image: url('/public/images/grouplogo.jpg');
+  background-image: url('/public/images/predict.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
   color: rgb(245, 241, 245);
   font-size: 100px;
 }

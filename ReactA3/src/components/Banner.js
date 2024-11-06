@@ -12,7 +12,7 @@ function Banner() {
             <h2>He got you covered!</h2>
             <div className="banner-btns">
                 <Button2 classname='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Get Started</Button2>
-                <Button classname='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Login</Button>
+                <Button classname='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Login(WIP)</Button>
             </div>
         </div>
     )

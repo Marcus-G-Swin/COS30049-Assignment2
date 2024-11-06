@@ -7,7 +7,6 @@ function Home() {
     return (
         <>
             <Banner />
-            <h1>YIPPEE</h1>
             <Footer />
         </>
     );

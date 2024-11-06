@@ -8,7 +8,7 @@ function Buy() {
     return (
         <>  
             <div className='buy'>
-                <h1 className='buy'>Give us money!!!!!!</h1>
+                <h1 className='buy'>Find a home!</h1>
                 <h2 className='buy'>Or want to see the prediction?</h2>
                 <div className="buy-btns">
                     <Button1 classname='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Predict</Button1>
