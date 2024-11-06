@@ -54,7 +54,7 @@ from pydantic import BaseModel
 # Initialize FastAPI
 app = FastAPI()
 
-# Load dataset (assumed to be in the same directory)
+# Load dataset (update path if needed)
 df_raw = pd.read_csv('D:/SWINUNI/6membersteam/COS30049-Assignment2/FastAPI/DataSets/combined_housing_data.csv', usecols=['Bedrooms', 'Type', 'Price', 'Bathrooms', 'Garage', 'Lot_Area', 'SqFt', 'Year_Built', 'Suburb'])
 
 # Split data into features and target
@@ -120,16 +120,21 @@ class PredictionResponse(BaseModel):
 @app.post("/predict/", response_model=PredictionResponse)
 async def predict_price(request: PredictionRequest):
     try:
+        # Combine all features into a list, as expected by the `predict` function
         data = [
             request.Bedrooms, request.Type, request.Bathrooms, 
             request.Garage, request.Lot_Area, request.SqFt, 
             request.Year_Built, request.Suburb
         ]
+        
+        # Call predict with a single argument, as defined in SimpleModel
         predicted_price = model.predict(data)[0]
+
         return PredictionResponse(predicted_price=predicted_price)
+    
     except Exception as e:
-        print(f"Prediction error: {e}")
-        raise HTTPException(status_code=500, detail="Error predicting price.")
+        print(f"Prediction error: {e}")  # Detailed error message
+        raise HTTPException(status_code=500, detail=f"Error predicting price: {e}")
 
 # Example usage:
 # Start the FastAPI server and use this endpoint:
@@ -145,5 +150,7 @@ async def predict_price(request: PredictionRequest):
 #   "Year_Built": 1995,
 #   "Suburb": "SuburbName"
 # }
+
+
 
 
