@@ -50,10 +50,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              AI Merchant
+              AI Merchants
             </Link>
           </div>
-          <small class='website-rights'>AI Merchant 2024</small>
+          <small class='website-rights'>AI Merchants 2024</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -130,6 +130,10 @@ div.buy > h2 {
   font-size: 100px;
 }
 
+.datadiv {
+  background: rgb(245, 241, 245);
+}
+
 /*specific styling for Login*/
 
 .login {
