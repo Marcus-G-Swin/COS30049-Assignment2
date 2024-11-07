@@ -1,7 +1,6 @@
 // Data.js
 
 import '../../App.css';
-import '../../Data.css';
 import Footer from '../Footer';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -285,7 +284,10 @@ function Data() {
   return (
     <div className="datadiv">
       <ThemeProvider className="datadiv" theme={theme}>
-        <h1 className="data">House Price Predictor</h1>
+        <div className="data">
+          <h1 className="data">House Price Predictor</h1>
+          <h2 className="data">Plan your future with our house price predictor</h2>
+        </div>
         <Container className="datadiv" maxWidth="md">
           <Box sx={{ my: 4 }}>
             <h1 gutterBottom>Enter your dream house details!</h1>

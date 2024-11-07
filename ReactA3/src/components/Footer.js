@@ -7,10 +7,10 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+        <p className='footer-heading'>
           We peak
         </p>
-        <p className='footer-subscription-text'>
+        <p className='footer-text'>
           Want to receive news?
         </p>
         <div className='input-areas'>

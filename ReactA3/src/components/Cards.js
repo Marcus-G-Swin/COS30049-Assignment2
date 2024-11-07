@@ -18,8 +18,8 @@ function Cards() {
 
   return (
     <div className='cards'>
-      <h1>Check out these house listings!</h1>
-      <p>Search:</p>
+      <h1 className='cards-title'>Check out these house listings!</h1>
+      <p className='cards-input-title'>Search:</p>
       <input
         type='text'
         placeholder='Search'

@@ -120,7 +120,7 @@ div.buy > h2 {
 
 /*specific styling for Predict*/
 
-.data {
+div.data {
   background-image: url('/public/images/predict.jpg');
   background-position: center;
   background-size: cover;
@@ -128,6 +128,23 @@ div.buy > h2 {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   color: rgb(245, 241, 245);
   font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+}
+
+div.data > h1 {
+  color: rgb(240, 226, 240);
+  font-size: 100px;
+}
+
+div.data > h2 {
+  margin-top: 8px;
+  color: rgb(240, 226, 240);
+  font-size: 32px;
+  margin-top: -300px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .datadiv {
