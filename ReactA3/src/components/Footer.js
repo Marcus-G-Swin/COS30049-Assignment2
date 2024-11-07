@@ -19,9 +19,9 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Your Email (WIP)'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Subscribe (WIP)</Button>
           </form>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import '../../App.css';
 import '../../Data.css'
+import Footer from '../Footer';
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Line, Bar } from 'react-chartjs-2';
@@ -187,10 +188,10 @@ function Data() {
 
   return (
     <ThemeProvider className='data' theme={theme}>
-      <h1 className='data'>Predicting house price</h1>
+      <h1 className='data'>House Price Predictor</h1>
       <Container maxWidth="md">
         <Box sx={{ my: 4 }}>
-          <h1 gutterBottom>House Price Predictor</h1>
+          <h1 gutterBottom>Enter your dream house details!</h1>
           <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
             <form onSubmit={handleSubmit}>
               <Grid container spacing={2}>
@@ -368,6 +369,7 @@ function Data() {
           )}
         </Box>
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 }

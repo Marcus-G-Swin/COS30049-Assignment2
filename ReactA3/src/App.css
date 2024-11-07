@@ -125,7 +125,7 @@ div.buy > h2 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   color: rgb(245, 241, 245);
   font-size: 100px;
 }
